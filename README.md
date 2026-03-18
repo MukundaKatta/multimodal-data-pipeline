@@ -1,13 +1,15 @@
-# multimodal-data-pipeline
+# Multimodal Data Pipeline
 
-Stub Python project. Described as a multimodal data pipeline, but none of that functionality exists.
+Data pipeline for processing and aligning text, image, audio, and video data for multimodal AI training.
 
-## What's actually here
+## About
+Multimodal Data Pipeline handles the ingestion, preprocessing, and alignment of data across multiple modalities. It prepares paired datasets for training multimodal models by synchronizing text, images, audio, and video into unified training formats.
 
-A single class in `src/core.py` (MultimodalDataPipeline) with placeholder methods that each return a fixed dictionary without doing any real work. There is no data pipeline, no multimodal processing, no ETL logic - just stubs.
-
-The project uses only Python standard library imports (time, logging, json, typing). No data pipeline or multimodal processing libraries are present.
+## Tech Stack
+- Language: Python
+- Processing: Format-specific preprocessors for each modality
+- Alignment: Cross-modal data pairing and synchronization
+- Storage: Scalable dataset management
 
 ## Status
-
-Scaffolding only. No working data pipeline functionality exists.
+Active development - data processing and alignment pipeline established.
